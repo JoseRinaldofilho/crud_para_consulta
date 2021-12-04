@@ -1,0 +1,26 @@
+1 xampp
+2 apache
+3 config
+4 extra
+5 httpd-vhost com botao direito  edi notpeed++ 
+la no ultimo pega modelo 
+
+##<VirtualHost *:80>
+    ##ServerAdmin webmaster@dummy-host2.example.com
+    ##DocumentRoot "C:/xampp/htdocs/dummy-host2.example.com"
+    ##ServerName dummy-host2.example.com
+    ##ErrorLog "logs/dummy-host2.example.com-error.log"
+    ##CustomLog "logs/dummy-host2.example.com-access.log" common
+##</VirtualHost>
+
+retira o jogo da velha/cerquilha 
+
+<VirtualHost *:80>
+    ServerAdmin webmaster@dummy-host2.example.com            
+    DocumentRoot "C:/xampp/htdocs/dummy-host2.example.com"
+    ServerName dummy-host2.example.com
+    ErrorLog "logs/dummy-host2.example.com-error.log"
+    CustomLog "logs/dummy-host2.example.com-access.log" common
+</VirtualHost>
+
+liha 19 depois do @ nome do projeto nesse caso local.projeto.com 
